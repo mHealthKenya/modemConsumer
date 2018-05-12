@@ -1,0 +1,30 @@
+{
+    "name": "if0xx/huawei-hilink-api",
+    "type": "library",
+    "description": "A barebones API to interact with the Huawei routers that support the Hilink XML API",
+    "homepage": "https://github.com/if0xx/Huawei-Hilink-API",
+    "keywords": ["api","Huawei","Hilink"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Sylvester Pedersen",
+            "email": "hsp@hsp.dk",
+            "homepage": "http://blog.hsp.dk",
+            "role": "Developer"
+        },
+        {
+            "name": "Ulf Buermeyer",
+            "email": "ulf@buermeyer.de",
+            "homepage": "https://buermeyer.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "if0xx\\HuaweiHilinkApi" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
